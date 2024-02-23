@@ -68,6 +68,7 @@ section.main {
   padding: 0 8%;
   justify-content: center;
   align-items: center;
+  /* position: relative; */
 }
 
 section.main h1 {
@@ -96,6 +97,23 @@ section.main .button-pesan {
 section.main img {
   width: 500px;
   margin-top: 100px;
+}
+
+.no-wa {
+  position: fixed;
+  right: 150px;
+  top: 75%;
+}
+
+.no-wa img {
+  position: absolute;
+  width: 100px;
+  transition: all 0.2s;
+}
+
+.no-wa img:hover {
+  position: absolute;
+  width: 90px;
 }
 
 /* section detail undnagan */
@@ -300,5 +318,22 @@ section.pilihan-paket .card-paket .paket a {
 
   section.pilihan-paket {
     padding-top: 30px;
+  }
+
+  .no-wa {
+    position: fixed;
+    right: 90px;
+    top: 85%;
+  }
+
+  .no-wa img {
+    position: absolute;
+    width: 70px;
+    transition: all 0.2s;
+  }
+
+  .no-wa img:hover {
+    position: absolute;
+    width: 60px;
   }
 }
