@@ -101,19 +101,19 @@ section.main img {
 
 .no-wa {
   position: fixed;
-  right: 150px;
-  top: 75%;
+  right: 120px;
+  top: 80%;
 }
 
 .no-wa img {
   position: absolute;
-  width: 100px;
+  width: 80px;
   transition: all 0.2s;
 }
 
 .no-wa img:hover {
   position: absolute;
-  width: 90px;
+  width: 70px;
 }
 
 /* section detail undnagan */
@@ -129,14 +129,16 @@ section .title-information {
 }
 
 section.detail-undngan .title-information h1,
-section.pilihan-paket .title-information h1 {
+section.pilihan-paket .title-information h1,
+section.demo-undangan .title-information h1 {
   text-align: center;
   font-size: var(--size-title);
   font-family: var(--font-title);
 }
 
 section.detail-undngan .title-information p,
-section.pilihan-paket .title-information p {
+section.pilihan-paket .title-information p,
+section.demo-undangan .title-information p {
   width: 70%;
   margin: 20px auto;
   font-family: var(--font-paragraf);
@@ -194,7 +196,7 @@ section.detail-undngan .card-list p {
 section.pilihan-paket {
   background-color: #1daafe;
   margin-top: -10px;
-  padding: 0 8%;
+  padding: 0px 8%;
   height: 100%;
 }
 
@@ -222,6 +224,13 @@ section.pilihan-paket .card-paket .paket {
   font-family: var(--font-title);
   border-radius: 20px;
   margin: 10px;
+  border: 2px solid transparent;
+  transition: all 0.2s;
+}
+
+section.pilihan-paket .card-paket .paket:hover {
+  border: 2px solid #000;
+  box-shadow: 0px 4px 10px #ffffffc0;
 }
 
 section.pilihan-paket .card-paket .paket h2 {
@@ -254,6 +263,23 @@ section.pilihan-paket .card-paket .paket a {
   margin-top: 15px;
   border-radius: 10px;
   color: #fff;
+}
+
+section.demo-undangan {
+  padding: 20px 8%;
+}
+
+section.demo-undangan .card-demo .paket {
+  margin-top: 40px;
+  text-align: center;
+}
+
+section.demo-undangan .card-demo .paket div {
+  margin: auto;
+  width: 180px;
+  height: 120px;
+  background-color: #16424e;
+  border-radius: 5px;
 }
 
 /* Responsive */
